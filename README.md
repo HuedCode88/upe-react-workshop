@@ -1,2 +1,2 @@
 # upe-react-workshop
-Repo used to teach the UPE Code React workshop 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/CarlosEnrique7/upe-react-workshop)
