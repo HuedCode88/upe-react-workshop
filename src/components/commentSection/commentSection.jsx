@@ -14,9 +14,6 @@ const commentSection = ({ comments }) => {
         {/* Write Code Here */}
         {/* Hint: Uncomment the line below. See the output in the console. Use commentList to display the output on the screen! */}
         {/* {console.log(commentList)} */}
-        {commentList.map((item, idx) => (
-          <UserComment currentComment={item} key={idx} />
-        ))}
       </div>
       <Link to="/">
         <button className="backBtn">{<ArrowBackIcon />}</button>
