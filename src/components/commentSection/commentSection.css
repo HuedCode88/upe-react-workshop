@@ -1,0 +1,42 @@
+.commentSection {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #0d0823;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.picture {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin: 0 1rem 0 0;
+}
+
+.user {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.comment {
+  width: 50vw;
+  margin-top: 3rem;
+  border-radius: 12px;
+  border: 2px solid #fff;
+  padding: 3rem;
+  box-shadow: 10px 10px #0ff;
+}
+
+.backBtn {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(225deg, #8a3bee 0%, #f200b7 39%, #fe9402 91.67%);
+  border-radius: 110px;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  top: 3rem;
+  left: 3rem;
+}

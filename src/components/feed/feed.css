@@ -1,0 +1,16 @@
+.feed {
+  margin-left: 15vw;
+  width: 85vw;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 890px) {
+  .feed {
+    width: 100vw;
+    margin-left: 0;
+  }
+}

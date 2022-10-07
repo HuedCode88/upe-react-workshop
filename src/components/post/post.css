@@ -1,0 +1,44 @@
+.post {
+  margin: 1rem 0;
+  width: 596.58px;
+}
+
+.name {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  border-radius: 20px;
+  width: 596.58px;
+  height: 423px;
+}
+
+.description {
+  font-size: 18px;
+}
+
+.pfp {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin: 0 1rem 0 0;
+}
+
+.topContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 596.58px;
+  margin-bottom: 1rem;
+}
+
+.iconContainer {
+  margin: 1rem 0;
+  width: 60px;
+  display: flex;
+  justify-content: space-between;
+}

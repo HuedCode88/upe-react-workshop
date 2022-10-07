@@ -1,0 +1,26 @@
+.formWrapper {
+  margin-left: 15vw;
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.form {
+  display: flex;
+  height: 30vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.submitPostButton {
+  width: 140px;
+  height: 45px;
+  background: linear-gradient(225deg, #8a3bee 0%, #f200b7 39%, #fe9402 91.67%);
+  border-radius: 110px;
+  border: none;
+  cursor: pointer;
+}

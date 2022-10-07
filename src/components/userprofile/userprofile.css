@@ -1,0 +1,71 @@
+.sidebar {
+  height: 100vh;
+  max-width: 15vw;
+  min-width: 150px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.basicInfo {
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.userImage {
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
+
+.names,
+.circle {
+  margin-top: 2rem;
+}
+
+.username,
+.bio {
+  text-align: center;
+}
+
+.newPostButton {
+  width: 140px;
+  height: 45px;
+  background: linear-gradient(225deg, #8a3bee 0%, #f200b7 39%, #fe9402 91.67%);
+  border-radius: 110px;
+  border: none;
+  cursor: pointer;
+}
+
+.circle {
+  background: linear-gradient(225deg, #8a3bee 0%, #f200b7 39%, #fe9402 91.67%);
+  border-radius: 50%;
+  min-height: 185px;
+  min-width: 185px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.followsCount {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 10rem;
+}
+
+.fullName {
+  font-size: 25px;
+}
+
+@media (max-width: 890px) {
+  .sidebar {
+    display: none;
+  }
+}
